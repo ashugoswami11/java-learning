@@ -41,8 +41,8 @@ class randomfun {
         counter++;
     }
     System.out.printf("you took %d turns to guess the correct number so your score is %d",counter,counter);
+    sc.close();
     }
-
 
 }
 public class randomguess {

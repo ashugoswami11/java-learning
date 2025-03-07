@@ -1,6 +1,10 @@
 
 //create a thread class and extends the inbuilt thread
 class MyThread extends Thread{
+    public MyThread(MyThread3 t2) {
+        //TODO Auto-generated constructor stub
+    }
+
     @Override
     public void run(){
         for(int i = 1; i<=10; i++){
